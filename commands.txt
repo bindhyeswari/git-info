@@ -1,0 +1,11 @@
+
+  503  mkdir info-git
+  504  cd info-git/
+  505  clear
+  506  git init
+  507  touch test.txt
+  508  git add .
+  509  git commit -m 'first draft'
+  510  git remote add github git@github.com:pvtech/git-info.git
+  511  git push github master
+  512  history > commands.txt
